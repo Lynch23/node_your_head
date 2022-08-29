@@ -1,0 +1,59 @@
+{
+    "animals": {
+        "name": "animals",
+        "subscribers": "84000",
+        "description": "A collection of all lovers, friends, enemies and family in the animal kingdom.",
+        "posts": [
+            {
+                "title": "My dog hasn't been eating meat for weeks now",
+                "author": "biggerearth"
+            },
+            {
+                "title": "I used to love cats until I meet my neighbour's cats",
+                "author": "fullgame"
+            },
+            {
+                "title": "You will believe in unicorns after looking at my pony",
+                "author": "maggierich"
+            }
+        ]
+    },
+    "games": {
+        "name": "games",
+        "subscribers": "20000",
+        "description": "All full lobby of gamers across the globe.",
+        "posts": [
+            {
+                "title": "Shooter games are taking the world by storm",
+                "author": "choccotaco"
+            },
+            {
+                "title": "fifa is dying",
+                "author": "extreme"
+            },
+            {
+                "title": "I doubt everything said about mario cart is true",
+                "author": "holdmeback"
+            }
+        ]
+    },
+    "soccer": {
+        "name": "soccer",
+        "subscribers": "184000",
+        "description": "A continuous national/international discussion about the sport we love.",
+        "posts": [
+            {
+                "title": "A legend retires today, Zlatan Ibrahimovic",
+                "author": "mikey"
+            },
+            {
+                "title": "VAR is shit",
+                "author": "ambrabat"
+            },
+            {
+                "title": "You wont believe who I ran into today, #goat",
+                "author": "seppie"
+            }
+        ]
+    }
+}

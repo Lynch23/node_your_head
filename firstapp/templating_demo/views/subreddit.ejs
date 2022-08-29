@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= topic.name %></title>
+</head>
+    <body>
+        <h1>Browsing the <%= topic.name %> subreddit</h1>
+        <p><%= topic.description %></p>
+        <p><%= topic.name %> | <%= topic.subscribers %> subscribers</p>
+        <ul>
+            <h2>Posts</h2>
+            <% for(post of topic.posts) { %> 
+                <li><%= post.title %> - <b><%= post.author %> </b> </li>
+            <% } %> 
+        </ul>
+    </body>
+</html>

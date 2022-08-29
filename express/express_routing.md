@@ -24,3 +24,14 @@ app.get('/user/:id', (req, res) => {
 	res.send(`You requested user ${req.params.id}`);
 });
 // this defines a pattern on the path, when that pattern is matched by the request made, we console.log "You requested the user (id passed)"
+
+working with query strings.
+query strings are stored on the req.query property which is an object that express contructs for us.
+
+to access a specific query string, we can follow the structure: 
+app.get('/search', (req, res) => {
+	const { q } = req.query;
+	res.send(`Showing results for : ${q}`);
+})
+
+
